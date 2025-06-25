@@ -37,7 +37,6 @@ We followed these steps to build our prediction model:
 
 7.  **Dealing with Uneven Loan Approvals (SMOTE):**
     * Our dataset had more approved loans than rejected ones, which can trick models.
-    * For the Logistic Regression model, we used something called **SMOTE** to create some fake loan rejection examples in the training data. This helped the model learn better how to spot rejected loans. (We did this specifically for one of our Logistic Regression tests; it can be added to other models too if needed.)
 
 8.  **Training and Checking Models:**
     * We tried out several different machine learning models:
