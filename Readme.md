@@ -35,10 +35,8 @@ We followed these steps to build our prediction model:
     * Divided our data into a training part (80% for the model to learn from) and a testing part (20% to check how well it learned).
     * Made sure the split kept the same proportion of approved/rejected loans in both parts, which is important because we had more approved loans than rejected ones.
 
-7.  **Dealing with Uneven Loan Approvals (SMOTE):**
-    * Our dataset had more approved loans than rejected ones, which can trick models.
 
-8.  **Training and Checking Models:**
+7. **Training and Checking Models:**
     * We tried out several different machine learning models:
         * Logistic Regression (our basic model, and one we adjusted using SMOTE)
         * Decision Tree (a simpler tree-like model)
